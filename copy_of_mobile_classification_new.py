@@ -679,4 +679,4 @@ if st.button("Predict Price Category"):
     prediction = model.predict(input_features)
     st.success(f"Predicted Price Category: {prediction[0]}")
 
-!streamlit run copy_of_mobile_classification_new.py
+
