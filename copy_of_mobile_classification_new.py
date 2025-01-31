@@ -653,11 +653,7 @@ with open (filename,'wb')as f:
 pred = svm_classifier.predict(np.array([[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]))
 pred[0]
 
-pip install streamlit
 
-pip install pyngrok streamlit
-
-import streamlit as st
 import pickle
 import numpy as np
 
